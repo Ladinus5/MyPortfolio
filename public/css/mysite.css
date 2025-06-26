@@ -1,0 +1,68 @@
+body{
+
+}
+.intro-txt{
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 13% 7%;
+}
+.code-img{
+    margin-top: 30px;
+    padding-left: 20px;
+}
+h1{
+    font-family: Montserrat-Black 900;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+h3{
+    font-family: Montserrat-Black 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+}
+.card-title{
+    font-family: Montserrat-Black 900;
+    font-weight: bold;
+}
+.card-text{
+    font-family: Montserrat;
+}
+.card{
+    margin: 15px;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 15px;
+    font-size: 1.2rem;
+    font-family: Montserrat-Light;
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.btn{
+    font-family: ubuntu;
+}
+.hero{
+    background-color: #1c3b70;
+}
+
+#contact{
+    text-align: center;
+    background-color: #1c3b70;
+    color: #fff;
+    font-family: Montserrat;
+    line-height: 1.5rem;
+    padding: 6% 15% 3%;
+}
+.social-icon{
+    color: #fff;
+    padding: 20px 10px;
+}
