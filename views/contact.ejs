@@ -1,3 +1,26 @@
 <%- include('header') -%>
 
+<head>
+  <title>Contact | Portfolio</title>
+</head>
+<body>
+
+  <section class="contact-section">
+    <div class="container">
+      <h2 class="text-center mb-4">Let's Connect</h2>
+      <form action="/send-message" method="POST" class="contact-form">
+        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+        <textarea name="message" rows="5" class="form-control" placeholder="Your Message" required></textarea>
+        <div class="text-center">
+          <button type="submit" class="btn-submit">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
+
+
 <%- include('footer') -%>

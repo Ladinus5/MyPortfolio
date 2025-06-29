@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const ejs = require('ejs');
 const _ = require('lodash');
-const services = require('./data/services.js');
+const services = require('./public/javaScript/services.js');
 
 
 const app = express();
@@ -25,6 +25,10 @@ app.get('/projects', function(req, res){
 app.get('/contact', function(req, res){
     res.render('contact')
 });
+app.post('/send-message', function(req, res){
+    const name = req.body.name
+    res.render('contactreply', {name : name})
+})
 
 app.get('/services/:slug', function(req, res){
     var storedParams = _.lowerCase(req.params.slug);

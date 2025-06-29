@@ -66,3 +66,60 @@ h3{
     color: #fff;
     padding: 20px 10px;
 }
+.service-section {
+    padding: 3rem;
+    background: linear-gradient(135deg, #f8f9fa, #e0e0e0);
+    color: #333;
+}
+.service-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.service-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.about-section {
+      padding: 3rem;
+      background: linear-gradient(135deg, #f8f9fa, #e0e0e0);
+      color: #333;
+    }
+.about-section h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+.about-section p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+.contactreply {
+    padding: 3rem;
+    background: linear-gradient(135deg, #f8f9fa, #e0e0e0);
+    color: #333;
+}
+.contactreply h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.contact-section {
+      padding: 2rem 1rem;
+      background: linear-gradient(135deg, #f1f1f1, #dfe6e9);
+    }
+    .contact-form {
+      max-width: 600px;
+      margin: auto;
+    }
+    .form-control {
+      margin-bottom: 1rem;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      border: 1px solid #ccc;
+    }
+    .btn-submit {
+      background-color: #1c3b70;
+      color: white;
+      padding: 0.8rem 2rem;
+      border: none;
+      border-radius: 0.5rem;
+    }
