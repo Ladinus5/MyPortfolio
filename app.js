@@ -31,7 +31,7 @@ app.post('/send-message', function(req, res){
 })
 
 app.get('/services/:slug', function(req, res){
-    var storedParams = _.lowerCase(req.params.slug);
+    var storedParams = req.params.slug;
     const service = services.find(items => items.slug === req.params.slug)
         if (service) {
             res.render('services', {service})
